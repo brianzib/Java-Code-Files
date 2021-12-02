@@ -1,0 +1,60 @@
+//JAVASCRIPT CODELIST (LOOPS)//
+
+//FOR LOOPS//
+
+FOR (i > 0 && z < 0; i++ Z--; System.OutPrint(i, Z);)
+
+
+For(;;) : Infinite loop
+
+//LOOP for printing out time table//
+
+int i = 1,
+For(i = 1, i < 10; i++)
+{
+system.out.printline(i*_)
+}
+
+
+
+
+//WHILE LOOPS// 
+
+do 
+{
+__________ // 1 execution loop
+}
+
+
+
+while(logic)
+{
+__________ // 0+ execution loops
+}
+
+
+While(TRUE) // Infinite while loop
+{
+
+}
+
+//TRY - CATCH LOOPS//
+
+try
+{
+
+//write code
+
+}
+
+CATCH (bfail==true)
+
+}
+
+
+
+int i = 1,
+For(i = 1, i < 10; i++)
+{
+system.out.printline(i*_)
+}
