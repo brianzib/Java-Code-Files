@@ -25,7 +25,7 @@ public class Cup extends LiquidContainer {
 		szColour = "White";
 		szMaterial = "Clay";
 		szType = "Tea";
-		int Temperature = 0;
+		iTemperature = 0;
 	}
 
 
@@ -93,7 +93,9 @@ public class Cup extends LiquidContainer {
 
 		myCup.setCapacity(450);
 		myCup.setVolume(450);
-		myCup.setFill();
+		int V = myCup.getVolume();
+		
+		myCup.setFill(V);
 		
 		myCup.setTemperature(50);
 		myCup.setColour("Blue");

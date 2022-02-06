@@ -38,11 +38,16 @@ public class LiquidContainer {
 		return;
 	}
 
-	 void setFill()
+	void setFill(int iValue)
 	{
-		if (iCapacity == iVolume)
+		if (iValue > 0)
 		{
 			fill = true;
+		}
+
+		else
+		{
+			fill = false;
 		}
 	}
 	//Getters
@@ -69,7 +74,7 @@ public class LiquidContainer {
 		System.out.println("The liquid containers capacity is : " + getCapacity());
 		System.out.println("The liquid containers Volume is : " + getVolume());
 
-		if (getFill() == true)
+		if (fill == true)
 		{
 			System.out.println("The container is currently filled");
 		}
@@ -90,7 +95,11 @@ public class LiquidContainer {
 
 		LC.setCapacity(400);
 		LC.setVolume(300);
-		LC.setFill();
+		int V = LC.getVolume();
+
+		System.out.println("Value of V " + V);
+
+		LC.setFill(V);
 
 		LC.Display();
 
